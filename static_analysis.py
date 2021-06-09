@@ -117,7 +117,5 @@ if __name__ == "__main__":
 
                 ticker_series.plot()
 
-                plt.savefig(
-                    f"{period}r/{ticker}_{metric}_{datetime.date(datetime.now())}.jpg"
-                )
+                plt.savefig(save_folder / f"{ticker}_{metric}_{date}.jpg")
                 plt.clf()
