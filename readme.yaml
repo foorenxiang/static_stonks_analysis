@@ -1,0 +1,37 @@
+# Installation Instructions
+# Open the folder in Terminal
+# Run "chmod +x install.sh" (only once required)
+# Run "./install.sh" in terminal (only once required)
+
+# Usage Instructions
+# Run "python3 static_analysis.py"
+
+stocks:
+  - AAPL
+  - ^GSPC
+  - GOOG
+  - PLTR
+  - TIGR
+  - TBLT
+  - GME
+  - SQ
+  - WMT
+  - V
+  - DIS
+  - OCGN
+  - NVAX
+  - MZH.SI
+  - D01.SI
+  - ^IXIC
+  - TSLA
+
+period:
+  - 1y
+  - 2y
+  - 5y
+
+metrics:
+  - Open
+  - Close
+  - High
+  - Low
